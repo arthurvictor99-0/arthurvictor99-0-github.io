@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.degrade {
+    background: linear-gradient(to bottom, #F9BA28, #83BC64);
+}
+
+body {
+    background: linear-gradient(to bottom, #57E6B8, #004FE1);
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.botoes-links a.button {
+    width: 100%;
+}
+
+.botoes-links a.button button {
+    width: 100%;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333333;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.botoes-links a.button button:hover {
+    background-color: #cccccc;
+    transform: scale(1.1);
+}
+
+/* Ícones */
+.botoes-links a.button button i {
+    margin-left: 10px;
+    color: #ffffff; 
+}
+
+.degrade span, .degrade i {
+    color: #ffffff;
+}
+
+
+
+
+
